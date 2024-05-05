@@ -1,0 +1,101 @@
+@font-face {
+	font-family: 'Playfair Display'; 
+	src: url("https://fonts.google.com/specimen/Playfair+Display");
+    }
+@font-face {
+    font-family:'Freeman';
+    src: url("https://fonts.google.com/specimen/Freeman");
+}
+.search-container {
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    
+}
+h1 {
+    font-family: "Freeman", sans-serif;
+    height: 50px;
+    font-style: normal;
+    
+  
+}
+h2 {
+    font-family: "Freeman", "sans-serif";
+    display: flex;
+    box-sizing: border-box;
+    margin-left: 70px;
+    
+}
+
+.search-input {
+    padding: 10px;
+    margin-right: 10px;
+    margin-left:20px ;
+    width: calc(50% - 15px);
+    border: 1px solid #29cd3f;
+    border-radius: 5px;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: italic;
+  }
+div {
+    background: radial-gradient(rgb(168, 233, 196), rgb(82, 206, 107));
+    font-family: "Freedom", "sans-serif";
+}
+
+
+.search-button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #0dc149;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.films-container{
+    /* display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box; */
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 1500px;
+    border-radius: 12px 12px 12px 12px;
+    flex-direction: row;
+    margin: 0 auto;
+    gap: 25px;
+    width: 80%;
+    background-color: #F1F1F1;
+    
+}
+.film{
+    margin-top: 10px;
+    border: 12px 12px 12px 12px;
+    flex-direction: row;
+    box-sizing: border-box;
+    flex-basis: 24%;
+    align-items: center;
+    justify-content: center;
+}
+.results-container {
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #4eeb68;
+    border-radius: 5px;
+}
+.film-img{
+    width: 400px;
+    height: 500px;
+}
+.body {
+    background: radial-gradient(rgb(110, 105, 212), rgba(76, 189, 255, 0.762), 0.384);
+}
+.search-input:hover {
+    cursor: help;
+    }
+
+
+html {
+    cursor: auto
+}

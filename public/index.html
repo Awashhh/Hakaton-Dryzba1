@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Фильмы</title>
+		<link rel="stylesheet" href="./styles/style.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Freeman&display=swap"
+			rel="stylesheet"
+		/>
+	</head>
+	<body class="main">
+		<form class="search-container" id="searchForm">
+			<label for="query"
+				>Хотите посмотреть фильм но не знаете что выбрать?</label
+			>
+			<input
+				type="text"
+				id="query"
+				class="search-input"
+				placeholder="Введите пожелание"
+				aria-label="Введите пожелание"
+			/>
+			<button type="submit" id="searchBtn" class="search-button">Поиск</button>
+		</form>
+		<h1>Вот что мы вам предложим из просмотренного нами:</h1>
+		<div class="films-container">
+			<div class="film">
+				<img class="film-img" src="./img/1.webp" alt="Собиратель душ" />
+				<h2>Собиратель душ (2024)</h2>
+			</div>
+			<div class="film">
+				<img class="film-img" src="./img/2.jpg" alt="Кукушка" />
+				<h2>Кукушка (2024)</h2>
+			</div>
+			<div class="film">
+				<img class="film-img" src="./img/1920x.webp" alt="Шрек-легенда" />
+				<h2>Шрэк (2001)</h2>
+			</div>
+			<div class="film">
+				<img class="film-img" src="./img/green_book.webp" alt="Зеленая Книга" />
+				<h2>Зеленая книга (2018)</h2>
+			</div>
+			<div class="film">
+				<img class="film-img" src="./img/Brother.webp" alt="Брат" />
+				<h2>Брат 2 (2000)</h2>
+			</div>
+		</div>
+		<div
+			id="results"
+			class="films-container"
+			role="region"
+			aria-live="polite"
+		></div>
+
+		<script src="scripts/index.js"></script>
+	</body>
+</html>
